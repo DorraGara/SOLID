@@ -1,7 +1,6 @@
-package com.directi.training.dip.exercise;
+package com.directi.training.dip.exercise_refactored;
 
 import java.io.*;
-import java.util.Base64;
 
 public class ReaderFile implements IReader {
 
