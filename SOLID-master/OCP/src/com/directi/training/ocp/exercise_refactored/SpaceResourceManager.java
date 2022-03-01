@@ -1,6 +1,6 @@
 package com.directi.training.ocp.exercise_refactored;
 
-public class SpaceResource implements IResource{
+public class SpaceResourceManager implements IResourceManager{
     @Override
     public void markSlotFree(int resourceId) {
 

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="SOLID-master/DIP/src"/>
+	<classpathentry kind="src" path="SOLID-master/ISP/src"/>
+	<classpathentry kind="src" path="SOLID-master/LSP/src"/>
+	<classpathentry kind="src" path="SOLID-master/OCP/src"/>
+	<classpathentry kind="src" path="SOLID-master/SRP/src"/>
+	<classpathentry kind="src" path="SOLID-master/SRP/test"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
