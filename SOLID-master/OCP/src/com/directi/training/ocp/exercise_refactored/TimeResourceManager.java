@@ -1,6 +1,6 @@
 package com.directi.training.ocp.exercise_refactored;
 
-public class TimeResource implements IResource{
+public class TimeResourceManager implements IResourceManager{
     @Override
     public void markSlotFree(int resourceId) {
 

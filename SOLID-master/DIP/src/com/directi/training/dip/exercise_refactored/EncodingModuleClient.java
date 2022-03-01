@@ -6,8 +6,9 @@ public class EncodingModuleClient
 {
     public static void main(String[] args) throws IOException
     {
-        EncodingModule encodingModule = new EncodingModule();
-        encodingModule.encodeWithFiles("D:/Studies/GL4/Qualite logiciel/TP/SOLID-master/SOLID-master/DIP/src/com/directi/training/dip/exercise/afterEncryption.txt");
-        //encodingModule.encodeBasedOnNetworkAndDatabase();
+    	WriterFile writer = new WriterFile();
+    	ReaderDataBase reader = new ReaderDataBase();
+        EncodingModule encodingModule = new EncodingModule(reader, writer);
+        encodingModule.encode();
     }
 }

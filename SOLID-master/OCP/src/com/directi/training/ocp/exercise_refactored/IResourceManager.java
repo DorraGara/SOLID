@@ -1,6 +1,6 @@
 package com.directi.training.ocp.exercise_refactored;
 
-public interface IResource {
+public interface IResourceManager {
 
     void markSlotFree(int resourceId);
     void markSlotBusy(int resourceId);
